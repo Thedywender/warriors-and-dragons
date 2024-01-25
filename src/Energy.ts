@@ -1,4 +1,4 @@
-import { EnergyType } from './Types/EnergyType';
+export type EnergyType = 'mana' | 'stamina';
 
 export default interface Energy {
   type_: EnergyType;
