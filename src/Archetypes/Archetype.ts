@@ -12,15 +12,15 @@ export default abstract class Archetype {
   }
 
   get name(): string {
-    return this.name;
+    return this._name;
   }
 
   get special(): number {
-    return this.special;
+    return this._special;
   }
 
   get cost(): number {
-    return this.cost;
+    return this._cost;
   }
 
   static createdArchetypeInstances(): number {
